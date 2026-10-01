@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    padding: 10vh 25vw 10vh 25vw;
+}
+div{
+    box-sizing: border-box;
+    background-color: aquamarine;
+    height: 80vh;
+    width: 50vw;
+}
+.image{
+    width: 50vw;
+    height: 70vh;
+}
+button{
+    height: 10vh;
+    background-image: linear-gradient(to right, orange,green);
+    width: 50vw;
+    color: white;
+    font-size:large;
+}
+button:hover{
+    color: blue;
+}
